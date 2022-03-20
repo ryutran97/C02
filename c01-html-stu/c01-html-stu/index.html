@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo-min.png">
+    <title>Trang web đầu tiên</title>
+</head>
+<body>
+    <header>
+        <h1>Trang web đầu tiên</h1>
+        <img src="./img/planets.gif" alt="planet" usemap="#vutru">
+        <map id="vutru" name="vutru">
+            <area shape="rect" coords="-1,-1,81,125" alt="Sun" href="./pages/sun.html" target="blank"> 
+            <area shape="rect" coords="90,58,3" alt="Mercury" href="./pages/mercur.html" target="blank">
+            <area shape="circle" coords="124,58,8" alt="Venus" href="./pages/venus.html" target="blank">
+        </map>
+    </header>
+    <nav style="background-color: rgb(255, 193, 59);">
+        <a href="#chan">Footer</a>
+        <a href="./pages/sun.html" target="blank">Sun</a>
+        <a href="tel:+840816020416" target="blank">Gọi ngay</a>
+        <a href="javascript: alert('Xin Chao')">Gửi lời chào</a>
+        <a href="mailto:academy@kmin.edu.vn" target="blank">Liên hệ</a>
+        <a href="http://google.com.vn" style="float: right;" target="blank">Tìm kiếm</a>
+    </nav>
+    <main>
+        <article style="width: 70%;">
+            <h2>Tiêu đề 01</h2>
+            <p><strong>Mô tả ngắn, Dec 7, 2025</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam quasi quidem obcaecati soluta, sed accusantium ipsam. Recusandae dolorum dolores animi alias perferendis amet nemo eos, cumque ut inventore esse.</p>
+            <img src="./img/article01.jpg" style="width: 100%;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, necessitatibus. Aliquid tempora, iste laudantium nobis eaque illo soluta. Perferendis iusto omnis nostrum dolores fuga magni corporis nisi perspiciatis dignissimos quia?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maxime molestias accusantium maiores, suscipit inventore culpa molestiae nulla ratione omnis illo repellat in quaerat vero voluptatum, saepe perferendis consectetur ipsa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae vitae doloremque dolor! Placeat perferendis esse dolorem incidunt consequuntur laborum nobis iusto debitis commodi, inventore, rerum sunt sapiente est necessitatibus autem.</p>
+            <h2>Tiêu đề 02</h2>
+            <p><strong>Mô tả ngắn hạn, Dec 7, 2025</strong></p>
+            <div>
+                <caption>Danh sách học viên tham gia Bug Sharing</caption>
+                <table border="1">
+                    <tr>
+                        <th>Họ tên</th>
+                        <th>Lớp</th>
+                        <th>SĐT</th>
+                    </tr>
+                    <tr>
+                        <td>Vũ Đình Bảo</td>
+                        <td>Tư duy và kỹ năng lập trình</td>
+                        <td>0384004298</td>
+                    </tr>
+                    <tr>
+                        <td>Lê Hồng Phúc</td>
+                        <td>Lập trình web Front-end</td>
+                        <td>0123456789</td>
+                    </tr>
+                    <tr>
+                        <td>Đặng Minh Tân</td>
+                        <td>Lập trình back-end với NodeJS</td>
+                        <td>null</td>
+                    </tr>
+                </table>
+            </div>
+            <h2>Tiêu đề 03</h2>
+            <p>Các món có thể gọi:</p>
+            <ul>
+                <li type="square">Coffee</li>
+                <li type="square">Tea</li>
+                <li type="square">CocaCola</li><br>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>CocaCola</li>
+            </ul>
+            <hr>
+            <p>Các món có thể gọi</p>
+            <ol type="A">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>CocaCola</li><br>
+                <li type="1">Coffee</li>
+                <li type="1">Tea</li>
+                <li type="1">CocaCola</li>
+            </ol>
+            <hr>
+            <p>Coffee và Milk nghĩa là gì?</p>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>- Thức uống làm cho bạn phê</dd>
+                <dt>Milk</dt>
+                <dd>- Thức uống làm cho bạn khỏe</dd>
+            </dl>
+            <hr>
+            <p>Menu chi tiết hơn</p>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                    <ul>
+                        <li>Green Tea</li>
+                        <li>Black Tea</li>
+                    </ul>
+                <li>Milk</li>
+            </ul>
+            <p><strong>Đăng kí khóa học</strong></p>
+            <div>
+                <p>Thông tin liên hệ</p>
+                <section style="background-color: aquamarine; width: 100%;">
+                        <form>
+                        <p>Họ và tên :</p>
+                        <input type="text" name="firstname" placeholder="Họ" style="width: 49%;">
+                        <input type="text" name="lastname" placeholder="Tên" style="width: 49%;">
+                        <p>Email liên hệ:</p>
+                        <input type="email" name="email" placeholder="Email" style="width: 99%;">
+                        <p>Giới tính:</p>
+                        <select name="gender" style="width: auto;">
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                            <option value="Khác">Khác</option>
+                        </select>
+                        <p>Số điện thoại liên hệ:</p>
+                        <input list="number" name="telenumber" placeholder="Chọn mã vùng" style="width: 30%;"> 
+                        <input type="number" name="telenumber" id="telenumber" placeholder="Số điện thoại" style="width: 68%;">
+                        <datalist id="number">
+                            <option value="VN(+84)">
+                            <option value="US(+12)">
+                        </datalist>
+                        <p>Địa chỉ</p>
+                        <input type="text" name="diachi" placeholder="Địa chỉ" style="width: 99%;">
+                        <input type="text" name="apart" placeholder="Căn hộ, khu hộ,..." style="width: 99%;">
+                        <input type="text" name="city" placeholder="Thành phố" style="width: 49%;">
+                        <input type="text" name="state" placeholder="Tỉnh" style="width: 49%;">
+                        <input type="number" name="code" placeholder="Zip code" style="width: 49%;">
+                        <input list="country" name="country" placeholder="Chọn quốc gia" style="width: 49%;">
+                        <datalist id="country">
+                            <option value="Việt Nam">
+                            <option value="US">
+                        </datalist>
+                        <div>
+                            <input type="submit" value="Submit" style="margin: auto; display: block;">
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </article>
+        <aside style="width: 30%;">
+            <img src="./img/avarta.png" style="width: 100%;" alt="thaybao">
+            <p style="text-align: center;"><strong>Vũ Đình Bảo</strong></p>
+            <p style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p><strong>Bài mới</strong></p>
+            <audio style="width: 100%;" controls>
+                <source src="./media/audio.mp3" type="audio/mpeg">
+            </audio>
+            <video width="100%" controls>
+                <source src="./media/video.mp4" type="video/mp4">
+            </video>
+            <p><strong>Tin vắng</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae veniam esse magnam modi quidem inventore voluptatibus ea. Asperiores mollitia quam maiores distinctio perspiciatis. Odio amet odit ut iusto, veniam expedita.</p>
+            <p><strong>Chúc mừng năm mới :v</strong></p>
+            <a href="http://kmin.edu.vn" target="blank">
+                <img src="img/noel.gif" alt="noel" style="width: 100%;">
+            </a>
+            <p><strong>Theo dõi Fanpage</strong></p>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fytoztee.vn%2F&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </main>
+    <footer id="chan" style="background-color: darkblue;">
+        <h2 style="text-align: center;">Footer Kmin Academy</h2>
+    </footer>
+</body>
+</html>
